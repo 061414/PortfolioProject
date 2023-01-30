@@ -140,3 +140,5 @@ CovidVaccinations VAC
 on DEA.location=VAC.location and DEA.date= VAC.date
 where DEA.continent is not null
 ---order by 3,4
+
+Select *from PercentPopulationVaccinated
